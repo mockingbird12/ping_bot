@@ -72,5 +72,5 @@ def repeat(message):
 
 if __name__=='__main__':
     print('Starting bot')
-    apihelper.proxy = { 'https': 'socks5://127.0.0.1:9050'}
+    # apihelper.proxy = { 'https': 'socks5://127.0.0.1:9050'}
     bot.polling()
